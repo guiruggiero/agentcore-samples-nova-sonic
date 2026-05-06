@@ -5,7 +5,7 @@ import traceback
 from fastapi import WebSocket, WebSocketDisconnect
 
 from strands.experimental.bidi.agent import BidiAgent
-from strands.experimental.bidi.models.nova_sonic import BidiNovaSonicModel
+from strands.experimental.bidi.models import BidiNovaSonicModel
 
 logger = logging.getLogger(__name__)
 
